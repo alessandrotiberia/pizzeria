@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pizzeria Da Marco | Forno a legna dal 1985 — Napoli</title>
+<meta name="description" content="Pizzeria Da Marco: vera pizza napoletana cotta nel forno a legna. Impasto a lunga lievitazione, ingredienti DOP. Prenota un tavolo o ordina d'asporto.">
+<meta property="og:title" content="Pizzeria Da Marco | Forno a legna">
+<meta property="og:description" content="Vera pizza napoletana, impasto 48h, ingredienti DOP.">
+<meta property="og:type" content="restaurant">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Pizzeria Da Marco",
+  "servesCuisine": "Pizza napoletana",
+  "priceRange": "€€",
+  "telephone": "+39 081 123 4567",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Roma 12",
+    "addressLocality": "Napoli",
+    "postalCode": "80100",
+    "addressCountry": "IT"
+  },
+  "openingHours": "Tu-Su 18:00-23:30",
+  "url": "https://www.pizzeriadamarco.it"
+}
+</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#home" class="logo">Da&nbsp;Marco<span>.</span></a>
+    <nav class="nav__links" id="menu">
+      <a href="#storia">Chi siamo</a>
+      <a href="#menu">Menù</a>
+      <a href="#galleria">Galleria</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#contatti">Contatti</a>
+      <a href="tel:+390811234567" class="btn btn--sm">📞 Ordina ora</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Apri menù"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero__overlay"></div>
+  <div class="container hero__content reveal">
+    <p class="hero__kicker">Forno a legna · dal 1985</p>
+    <h1>La vera pizza<br>napoletana</h1>
+    <p class="hero__text">Impasto a lunga lievitazione 48 ore, farine selezionate e ingredienti DOP. Cotta in 90 secondi a 450°C.</p>
+    <div class="hero__cta">
+      <a href="#menu" class="btn">Scopri il menù</a>
+      <a href="#contatti" class="btn btn--ghost">Prenota un tavolo</a>
+    </div>
+  </div>
+  <div class="hero__scroll">↓</div>
+</section>
+
+<section class="strip">
+  <div class="container strip__inner">
+    <div><strong>48h</strong><span>Lievitazione</span></div>
+    <div><strong>450°C</strong><span>Forno a legna</span></div>
+    <div><strong>100%</strong><span>Ingredienti DOP</span></div>
+    <div><strong>4.8★</strong><span>su Google</span></div>
+  </div>
+</section>
+
+<section class="section" id="storia">
+  <div class="container grid-2">
+    <div class="reveal">
+      <p class="kicker">La nostra storia</p>
+      <h2>Tre generazioni di pizzaioli</h2>
+      <p>Dal 1985 portiamo in tavola la tradizione napoletana. Nonno Marco accese il forno con le sue mani e da allora quel fuoco non si è mai spento.</p>
+      <p>Ogni panetto è lavorato a mano ogni mattina. Il pomodoro è San Marzano DOP, la mozzarella arriva ogni giorno dai caseifici di Agerola.</p>
+      <ul class="checks">
+        <li>Impasto a lunga maturazione, altamente digeribile</li>
+        <li>Fornitori locali selezionati</li>
+        <li>Opzioni senza glutine e vegane</li>
+      </ul>
+    </div>
+    <div class="reveal">
+      <img src="https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?w=900&q=70" alt="Pizzaiolo al forno a legna" class="rounded">
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark" id="menu">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="kicker">Il menù</p>
+      <h2>Le nostre pizze</h2>
+      <p class="lead">Selezione delle più richieste. Menù completo disponibile in pizzeria.</p>
+    </div>
+
+    <div class="tabs" id="tabs">
+      <button class="tab is-active" data-cat="classiche">Classiche</button>
+      <button class="tab" data-cat="speciali">Speciali</button>
+      <button class="tab" data-cat="bianche">Bianche</button>
+      <button class="tab" data-cat="bevande">Bevande</button>
+    </div>
+
+    <div class="menu-grid" id="menuGrid"></div>
+
+    <div class="menu-note reveal">Allergeni disponibili su richiesta · Coperto €1,50</div>
+  </div>
+</section>
+
+<section class="section" id="galleria">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="kicker">Galleria</p>
+      <h2>Dal forno al tavolo</h2>
+    </div>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=700&q=70" alt="Pizza margherita">
+      <img src="https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=700&q=70" alt="Pizza al forno">
+      <img src="https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=700&q=70" alt="Interno pizzeria">
+      <img src="https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?w=700&q=70" alt="Impasto fresco">
+      <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=700&q=70" alt="Pizza con basilico">
+      <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=700&q=70" alt="Tavolo apparecchiato">
+    </div>
+  </div>
+</section>
+
+<section class="section section--cream" id="recensioni">
+  <div class="container">
+    <div class="section__head reveal">
+      <p class="kicker">Recensioni</p>
+      <h2>Cosa dicono i clienti</h2>
+    </div>
+    <div class="reviews">
+      <figure class="review reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>"La margherita migliore che abbia mangiato fuori dal centro storico. Cornicione perfetto."</blockquote>
+        <figcaption>Giulia R. — Google</figcaption>
+      </figure>
+      <figure class="review reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Personale gentilissimo e prezzi onesti. Ci torniamo ogni venerdì con la famiglia."</blockquote>
+        <figcaption>Antonio M. — TripAdvisor</figcaption>
+      </figure>
+      <figure class="review reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Finalmente una pizza senza glutine che sa di pizza. Complimenti davvero."</blockquote>
+        <figcaption>Sara D. — Facebook</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contatti">
+  <div class="container grid-2">
+    <div class="reveal">
+      <p class="kicker">Contatti</p>
+      <h2>Prenota il tuo tavolo</h2>
+      <p>Compila il form oppure chiamaci: rispondiamo tutti i giorni dalle 17:00.</p>
+      <ul class="info">
+        <li><strong>Indirizzo</strong> Via Roma 12, 80100 Napoli</li>
+        <li><strong>Telefono</strong> <a href="tel:+390811234567">081 123 4567</a></li>
+        <li><strong>Email</strong> <a href="mailto:info@pizzeriadamarco.it">info@pizzeriadamarco.it</a></li>
+        <li><strong>Orari</strong> Mar–Dom 18:00 – 23:30 · Lunedì chiuso</li>
+      </ul>
+      <div class="map">
+        <iframe title="Mappa" src="https://www.openstreetmap.org/export/embed.html?bbox=14.24%2C40.83%2C14.28%2C40.86&layer=mapnik" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <form class="form reveal" id="bookingForm" novalidate>
+      <div class="field"><label for="nome">Nome e cognome *</label><input id="nome" name="nome" required></div>
+      <div class="field"><label for="tel">Telefono *</label><input id="tel" name="tel" type="tel" required></div>
+      <div class="row">
+        <div class="field"><label for="data">Data *</label><input id="data" name="data" type="date" required></div>
+        <div class="field"><label for="ora">Ora *</label><input id="ora" name="ora" type="time" required value="20:00"></div>
+      </div>
+      <div class="field"><label for="persone">Persone</label>
+        <select id="persone" name="persone"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6+</option></select>
+      </div>
+      <div class="field"><label for="note">Note (allergie, seggiolone...)</label><textarea id="note" name="note" rows="3"></textarea></div>
+      <button type="submit" class="btn btn--full">Invia richiesta</button>
+      <p class="form__msg" id="formMsg"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <a href="#home" class="logo logo--light">Da&nbsp;Marco<span>.</span></a>
+      <p>Vera pizza napoletana dal 1985.</p>
+    </div>
+    <div>
+      <h4>Link</h4>
+      <a href="#storia">Chi siamo</a><a href="#menu">Menù</a><a href="#contatti">Contatti</a>
+    </div>
+    <div>
+      <h4>Seguici</h4>
+      <a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TripAdvisor</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> Pizzeria Da Marco · P.IVA 01234567890</span>
+    <span><a href="#">Privacy</a> · <a href="#">Cookie</a></span>
+  </div>
+</footer>
+
+<a href="tel:+390811234567" class="fab" aria-label="Chiama">📞</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
